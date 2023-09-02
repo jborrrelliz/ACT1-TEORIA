@@ -1,0 +1,86 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    nav ul {
+        text-align: center;
+    }
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+/* Estilos para el contenido principal */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.planta {
+    border: 2px solid black; /* Borde negro de 2 píxeles */
+    padding: 10px; /* Relleno de 10 píxeles */
+    background-color: #C8E6C9; /* Color de fondo verde claro */
+    margin: 10px; /* Espacio entre los div de las plantas */
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra horizontalmente el contenido del div */
+    align-items: center; /* Centra verticalmente el contenido del div */
+    height: 100vh; /* Ajusta la altura del div al 100% del viewport (ventana del navegador) */
+}
+
+section {
+    background-color: #fff; /* Fondo blanco */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+.contenedor-plantas {
+    display: flex;
+}
+
+.texto, .imagen {
+    margin: 10px; /* Espacio entre los divs si es necesario */
+}
